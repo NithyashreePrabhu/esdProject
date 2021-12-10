@@ -12,3 +12,32 @@ Code block
 ```
 
 ### Components used 
+-
+
+
+### Block Diagram
+-
+
+### Wi-Fi Intensity based localization
+-
+
+### Mbed Code
+
+```markdown
+Code block 
+```
+
+### Raspberry Pi Code
+
+```markdown
+Code block 
+```
+
+### Future Improvements
+
+
+### Team Members
+- Himanshu Chaudhary
+- Santhana Bharathi Narasimmachari
+- Dhruva Barfiwala
+- Nithyashree Prabhu

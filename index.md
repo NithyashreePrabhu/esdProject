@@ -18,8 +18,8 @@
 ### Manual Control over BLE
 
 - Complete manual control over BLE, operator could leverage real-time video feed over the server to perform precise tasks
- * 1 -> Forward
- * 2 -> Back
+ * 1 - Forward
+ * 2 - Back
  * 3 – Left
  * 4 – Right
  * Up arrow – Increase speed

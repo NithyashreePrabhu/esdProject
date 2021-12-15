@@ -9,7 +9,14 @@
 
 
 ### Components used 
--
+- Mbed Microcontroller
+- Raspberry Pi ZeroW
+- Pi Camera
+- Bluetooth
+- Dual H-Bridge
+- DC Motors
+- Power banks
+- WiFi hotspot
 
 
 ### Block Diagram
@@ -35,6 +42,7 @@
 
 
 ### Mbed Code
+
 
 ```markdown
 #include "mbed.h"
@@ -270,6 +278,8 @@ int main()
 
 ### Raspberry Pi Wifi Signal Capture Code
 
+- Below script can be added to ~/.bashrc to run the script during bootup without user intervention
+
 ```markdown
 #!/bin/bash
 dummy=0
@@ -330,6 +340,7 @@ done
 ```
 
 ### Raspberry Pi Camera Web streaming Code
+- Below script can be added to ~/.bashrc to run the script during bootup without user intervention
 ```markdown
 # Web streaming example
 # Source code from the official PiCamera package

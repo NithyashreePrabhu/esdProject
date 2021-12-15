@@ -18,14 +18,14 @@
 ### Manual Control over BLE
 
 - Complete manual control over BLE, operator could leverage real-time video feed over the server to perform precise tasks
-  - 1 -> Forward
-  - 2 -> Back
-  - 3 – Left
-  - 4 – Right
-  - Up arrow – Increase speed
-  - Down arrow – Decrease speed
-  - Left arrow – Go to autonomous mode
-  - Right arrow – Go to manual mode
+ * 1 -> Forward
+ * 2 -> Back
+ * 3 – Left
+ * 4 – Right
+ * Up arrow – Increase speed
+ * Down arrow – Decrease speed
+ * Left arrow – Go to autonomous mode
+ * Right arrow – Go to manual mode
 
 ![image](https://github.com/NithyashreePrabhu/esdProject/blob/gh-pages/Manual.PNG)
 

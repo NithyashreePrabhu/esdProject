@@ -341,6 +341,7 @@ done
 
 ### Raspberry Pi Camera Web streaming Code
 - Below script can be added to ~/.bashrc to run the script during bootup without user intervention
+
 ```markdown
 # Web streaming example
 # Source code from the official PiCamera package

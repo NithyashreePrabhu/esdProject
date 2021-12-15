@@ -1,4 +1,4 @@
-## Human Assist Multi Purpose Robot
+## Rescue and Human Assist Multi Purpose Robot
 
 ### Features
 - Autonomous multi purpose robot 
@@ -18,14 +18,14 @@
 ### Manual Control over BLE
 
 - Complete manual control over BLE, operator could leverage real-time video feed over the server to perform precise tasks
-o	1 -> Forward
-o	2 -> Back
-o	3 – Left
-o	4 – Right
-o	Up arrow – Increase speed
-o	Down arrow – Decrease speed
-o	Left arrow – Go to autonomous mode
-o	Right arrow – Go to manual mode
+  - 1 -> Forward
+  - 2 -> Back
+  - 3 – Left
+  - 4 – Right
+  - Up arrow – Increase speed
+  - Down arrow – Decrease speed
+  - Left arrow – Go to autonomous mode
+  - Right arrow – Go to manual mode
 
 ![image](https://github.com/NithyashreePrabhu/esdProject/blob/gh-pages/Manual.PNG)
 
@@ -433,6 +433,9 @@ with picamera.PiCamera(resolution='640x480', framerate=24) as camera:
 ```
 
 ### Future Improvements
+
+- Multi-source wifi triangulation for indoor mapping
+- Live firmware upgrade for the mbed using Ethernet connectivity on Rasberry Pi
 
 
 ### Team Members

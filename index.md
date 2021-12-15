@@ -18,9 +18,11 @@
 ### Manual Control over BLE
 
 - Complete manual control over BLE, operator could leverage real-time video feed over the server to perform precise tasks
+
+- 1 for Forward, 2 for Back, 3 for Left, 4 for Right, Up arrow for increasing speed, Down arrow for decreasing speed, left arrow for going to autonomous mode, Right arrow for going to manual mode
  
 
-![image](https://github.com/NithyashreePrabhu/esdProject/blob/gh-pages/Manual.PNG)
+![alt text](https://github.com/NithyashreePrabhu/esdProject/blob/gh-pages/Manual.PNG)
 
 
 ### Wi-Fi Intensity based localization and path-planning
@@ -29,7 +31,7 @@
 
 - Iterative path-planning algorithm: The algorithm iteratively move towards the source location based on real-time feedback of the wifi strength.
 
-![image](https://github.com/NithyashreePrabhu/esdProject/blob/gh-pages/Flow.png)
+![alt text](https://github.com/NithyashreePrabhu/esdProject/blob/gh-pages/Flow.png)
 
 
 ### Mbed Code

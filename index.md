@@ -16,7 +16,7 @@ Code block
 
 
 ### Block Diagram
--
+![image](https://user-images.githubusercontent.com/95492932/146130792-c3e739e7-8b3e-43fa-a178-de00e06122d2.png)
 
 ### Wi-Fi Intensity based localization
 -

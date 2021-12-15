@@ -278,7 +278,7 @@ int main()
 
 ### Raspberry Pi Wifi Signal Capture Code
 
-- Below script can be added to ~/.bashrc to run the script during bootup without user intervention
+- Below script can be added to ~/.bashrc to run the script during bootup without user intervention.
 
 ```markdown
 #!/bin/bash
@@ -340,7 +340,7 @@ done
 ```
 
 ### Raspberry Pi Camera Web streaming Code
-- Below script can be added to ~/.bashrc to run the script during bootup without user intervention
+- Below script can be added to ~/.bashrc to run the script during bootup without user intervention.
 
 ```markdown
 # Web streaming example

@@ -7,9 +7,6 @@
 - Low-end mbed MCU for differential drive control and obstacle detection
 - Manual Control over Bluetooth
 
-```markdown
-Code block 
-```
 
 ### Components used 
 -
@@ -18,8 +15,29 @@ Code block
 ### Block Diagram
 ![image](https://user-images.githubusercontent.com/95492932/146130792-c3e739e7-8b3e-43fa-a178-de00e06122d2.png)
 
-### Wi-Fi Intensity based localization
--
+### Manual Control over BLE
+
+- Complete manual control over BLE, operator could leverage real-time video feed over the server to perform precise tasks
+o	1 -> Forward
+o	2 -> Back
+o	3 – Left
+o	4 – Right
+o	Up arrow – Increase speed
+o	Down arrow – Decrease speed
+o	Left arrow – Go to autonomous mode
+o	Right arrow – Go to manual mode
+
+![image](https://github.com/NithyashreePrabhu/esdProject/blob/gh-pages/Manual.PNG)
+
+
+### Wi-Fi Intensity based localization and path-planning
+
+- Serial Interface with Raspberry Pi to read the wifi strength (in decibels) of the source using an interrupt mechanism
+
+- Iterative path-planning algorithm: The algorithm iteratively move towards the source location based on real-time feedback of the wifi strength.
+
+![image](https://github.com/NithyashreePrabhu/esdProject/blob/gh-pages/Flow.png)
+
 
 ### Mbed Code
 
